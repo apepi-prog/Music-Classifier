@@ -10,6 +10,7 @@ We have a few music extracts to classify in genres, we can't see them in advance
 6. Experimental
 7. Pop
 8. Rock  
+
 We have also a few extracts called "train extracts" and for each we know their genre. From these extracts we will create different classifier and try to find the best one. The result is organised in a csv file with two columns, each song is represented by 6 consecutive numbers (the first column), associated to his genre (a number from 1 to 8). The project is developed in Python. 
 
 ## One of the most basic classifier : kNN-classifier with MFCC

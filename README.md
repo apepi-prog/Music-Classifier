@@ -9,7 +9,7 @@ We have a few music extracts to classify in genres, we can't see them in advance
 5. WorldMusic
 6. Experimental
 7. Pop
-8. Rock
+8. Rock  
 We have also a few extracts called "train extracts" and for each we know their genre. From these extracts we will create different classifier and try to find the best one. The result is organised in a csv file with two columns, each song is represented by 6 consecutive numbers (the first column), associated to his genre (a number from 1 to 8). The project is developed in Python. 
 
 ## One of the most basic classifier : kNN-classifier with MFCC
@@ -28,4 +28,4 @@ We obtained an accuracy around 61% which is clearly better.
 In input, we have sounds and we are using pre-trained network like VGGish or OpenL3. These networks are creating spectrograms which are considered as pictures and can pass trough convolutionnal neural network. After that we created our own neural network and try to optimize it. The better accuracy we obtained is around 67%. 
 Of course, we tried data augmentation to have a better accuracy or ensemble learning but the last one didn't work well. 
 
-The csv file linked contains the ebst results. 
+The csv file linked contains the best results. 
